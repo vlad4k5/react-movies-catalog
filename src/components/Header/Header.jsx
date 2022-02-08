@@ -12,10 +12,10 @@ const Header = () => {
         <img className={styles.logoImg} src={logoImg} alt='TMDB'/>
         <nav>
           <ul>
-            <li>Movies</li>
-            <li>Tv Shows</li>
-            <li>People</li>
-            <li>More</li>
+            <li><a href='#2'>Movies</a></li>
+            <li><a href='#2'>Tv Shows</a></li>
+            <li><a href='#2'>People</a></li>
+            <li><a href='#2'>More</a></li>
           </ul>
         </nav>
       </div>
