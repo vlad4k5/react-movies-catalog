@@ -1,9 +1,13 @@
-
+import styles from './App.module.scss'
+import Header from './components/Header/Header';
 
 const App = () => {
   return (
-    <div className="App">
-      Spp
+    <div>
+      <Header />
+      <div className={styles.contentWrapper}>
+        
+      </div>
     </div>
   );
 }
